@@ -4,6 +4,18 @@ A never-ending voxel party radio. A band of Claude models (Sonnet = guitar, Haik
 three.js voxel stage whose scenery changes per **vibe**. Music is synthesised with numpy (`music/`) into a library, and optionally composed live on every vote. It always keeps
 playing: when a song is about to end the next song of the same vibe is queued.
 
+## Screenshots
+Every vibe has its own voxel stage; the band (Sonnet, Opus, Haiku) plays the note events of the current song.
+
+| House | Synthwave | Middle Eastern |
+|---|---|---|
+| ![House stage](docs/screenshots/house.jpg) | ![Synthwave stage](docs/screenshots/synthwave.jpg) | ![Middle Eastern stage](docs/screenshots/mideast.jpg) |
+
+Vote UI on desktop and on a phone (the layout is built for phones first):
+
+<img src="docs/screenshots/vote-desktop.png" alt="Vote UI on desktop" width="560"> <img src="docs/screenshots/vote-mobile.png" alt="Vote UI on a phone" width="180">
+
+
 ## Run it
 ```
 npm install
