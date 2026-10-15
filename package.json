@@ -1,0 +1,22 @@
+{
+  "name": "ai-radio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Voxel AI radio: a Claude band on stage, procedurally generated numpy music, LAN party voting.",
+  "scripts": {
+    "dev": "vite --host",
+    "seed": "node server/seed.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@fontsource/space-grotesk": "^5.3.0",
+    "qrcode": "^1.5.4",
+    "three": "0.170.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

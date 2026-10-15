@@ -1,0 +1,10 @@
+node_modules/
+dist/
+dev.log
+*.log
+__pycache__/
+*.pyc
+tracks/*.wav
+tracks/*.tmp.mp3
+.DS_Store
+.env
